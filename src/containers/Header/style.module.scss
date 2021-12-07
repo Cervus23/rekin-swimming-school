@@ -1,0 +1,21 @@
+@import "../../scss/colors.scss";
+
+.headerMain {
+  display: grid;
+  background-color: $headerBgrnd;
+
+  .logoContainer {
+    display: grid;
+
+    .logoImg {
+      width: 243px;
+      height: 115px;
+      background: url("../../img/logo/logoImg.svg");
+    }
+    .logoName {
+      width: 234px;
+      height: 45px;
+      background: url("../../img/logo/logoName.svg");
+    }
+  }
+}
