@@ -1,0 +1,57 @@
+@import "../../scss/colors.scss";
+
+.footerSection {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: space-between;
+  height: 150px;
+  background-color: $footerBgrnd;
+  padding-left: 20px;
+  padding-right: 80px;
+
+  .contacts {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    align-items: end;
+    padding-bottom: 20px;
+    column-gap: 30px;
+
+    .contact {
+      display: grid;
+      grid-template-columns: repeat(2, max-content);
+      column-gap: 15px;
+      align-items: center;
+      font-family: "Barlow", sans-serif;
+
+      .contactIcon {
+        width: 30px;
+        height: 30px;
+      }
+
+      .contactText {
+        text-decoration: none;
+        color: $mainFont;
+      }
+    }
+  }
+
+  .logoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    column-gap: 30px;
+
+    .logoImg {
+      width: 243px;
+      height: 115px;
+      background: url("../../img/logo/logoImg.svg") no-repeat center;
+      background-size: cover;
+    }
+    .logoName {
+      width: 234px;
+      height: 45px;
+      background: url("../../img/logo/logoName.svg") no-repeat center;
+      background-size: cover;
+    }
+  }
+}

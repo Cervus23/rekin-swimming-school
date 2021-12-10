@@ -1,11 +1,19 @@
 @import "../../scss/colors.scss";
 
-.headerMain {
+.headerSection {
   display: grid;
   background-color: $headerBgrnd;
+  grid-template-columns: max-content max-content;
+  height: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
 
   .logoContainer {
     display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 35px;
+    align-items: center;
 
     .logoImg {
       width: 243px;
@@ -16,6 +24,27 @@
       width: 234px;
       height: 45px;
       background: url("../../img/logo/logoName.svg");
+    }
+  }
+
+  .navMenu {
+    display: grid;
+    align-items: center;
+    .menuList {
+      display: grid;
+      grid-template-columns: repeat(5, max-content);
+      column-gap: 45px;
+      padding: 0;
+      margin: 0;
+
+      .menuItem {
+        list-style-type: none;
+        color: $mainFont;
+        font-family: "Oswald", sans-serif;
+        font-weight: 300;
+        font-size: 20pt;
+        text-transform: uppercase;
+      }
     }
   }
 }

@@ -1,28 +1,28 @@
 @import "../../scss/colors.scss";
 
-.offerSection {
-  background-color: $offerBgrnd;
+.gallerySection {
+  background-color: $galleryBgrnd;
   padding-top: 50px;
+  padding-bottom: 90px;
   font-family: "Montserrat", sans-serif;
 
   .title {
     margin: 0;
-    color: $offerFont;
+    color: $galleryFont;
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 35pt;
   }
 
-  .offerContainer {
+  .photoContainer {
     margin-top: 80px;
     display: grid;
     justify-content: space-evenly;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: 300px;
-    text-align: center;
-    font-weight: 500;
-    font-size: 18pt;
-    line-height: 45px;
+    grid-template-columns: repeat(3, 500px);
+
+    .photoItem {
+      border-radius: 10px;
+    }
   }
 }

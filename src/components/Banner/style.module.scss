@@ -1,0 +1,50 @@
+@import "../../scss/colors.scss";
+
+.bannerSection {
+  display: grid;
+  height: 600px;
+  background: url("../../img/Banner.png") no-repeat center;
+
+  .infoBlock {
+    display: grid;
+    grid-template-areas:
+      "title slogan"
+      "logo slogan";
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    row-gap: 35px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: $mainFont;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+
+    .title {
+      grid-area: title;
+      justify-self: center;
+      width: max-content;
+      margin: 0;
+      font-weight: 500;
+      font-size: 45pt;
+    }
+
+    .slogan {
+      grid-area: slogan;
+      width: max-content;
+      margin: 0;
+      font-weight: 600;
+      font-size: 45pt;
+    }
+
+    .logo {
+      grid-area: logo;
+      width: 392px;
+      height: 75px;
+      background: url("../../img/logo/logoName.svg") no-repeat center;
+      background-size: cover;
+    }
+  }
+}
