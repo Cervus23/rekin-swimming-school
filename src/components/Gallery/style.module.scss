@@ -18,10 +18,14 @@
   .photoContainer {
     margin-top: 80px;
     display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: repeat(3, 500px);
+    justify-content: center;
+    column-gap: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-template-columns: repeat(3, 30%);
 
     .photoItem {
+      width: 100%;
       border-radius: 10px;
     }
   }

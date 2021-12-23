@@ -14,8 +14,8 @@
     align-items: center;
     align-self: center;
     row-gap: 35px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
     color: $mainFont;
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -28,7 +28,7 @@
       width: max-content;
       margin: 0;
       font-weight: 500;
-      font-size: 45pt;
+      font-size: 60px;
     }
 
     .slogan {
@@ -36,7 +36,7 @@
       width: max-content;
       margin: 0;
       font-weight: 600;
-      font-size: 45pt;
+      font-size: 60px;
     }
 
     .logo {
