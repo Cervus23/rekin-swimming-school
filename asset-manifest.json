@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/rekin-swimming-school/static/css/main.57db76b7.chunk.css",
-    "main.js": "/rekin-swimming-school/static/js/main.8d777b7b.chunk.js",
-    "main.js.map": "/rekin-swimming-school/static/js/main.8d777b7b.chunk.js.map",
+    "main.css": "/rekin-swimming-school/static/css/main.38ea5d0a.chunk.css",
+    "main.js": "/rekin-swimming-school/static/js/main.dd642e0b.chunk.js",
+    "main.js.map": "/rekin-swimming-school/static/js/main.dd642e0b.chunk.js.map",
     "runtime-main.js": "/rekin-swimming-school/static/js/runtime-main.f9d81d2d.js",
     "runtime-main.js.map": "/rekin-swimming-school/static/js/runtime-main.f9d81d2d.js.map",
     "static/js/2.e1e01cc2.chunk.js": "/rekin-swimming-school/static/js/2.e1e01cc2.chunk.js",
@@ -10,20 +10,23 @@
     "static/js/3.1ad18f73.chunk.js": "/rekin-swimming-school/static/js/3.1ad18f73.chunk.js",
     "static/js/3.1ad18f73.chunk.js.map": "/rekin-swimming-school/static/js/3.1ad18f73.chunk.js.map",
     "index.html": "/rekin-swimming-school/index.html",
-    "static/css/main.57db76b7.chunk.css.map": "/rekin-swimming-school/static/css/main.57db76b7.chunk.css.map",
+    "static/css/main.38ea5d0a.chunk.css.map": "/rekin-swimming-school/static/css/main.38ea5d0a.chunk.css.map",
     "static/js/2.e1e01cc2.chunk.js.LICENSE.txt": "/rekin-swimming-school/static/js/2.e1e01cc2.chunk.js.LICENSE.txt",
     "static/media/style.module.scss": "/rekin-swimming-school/static/media/logoName.b0d6f1e0.svg",
+    "static/media/diving.c2d4813a.svg": "/rekin-swimming-school/static/media/diving.c2d4813a.svg",
     "static/media/email.7bd44514.svg": "/rekin-swimming-school/static/media/email.7bd44514.svg",
     "static/media/facebook.4000cc9a.svg": "/rekin-swimming-school/static/media/facebook.4000cc9a.svg",
     "static/media/phone.51ada8d2.svg": "/rekin-swimming-school/static/media/phone.51ada8d2.svg",
     "static/media/photo1.956f6a58.png": "/rekin-swimming-school/static/media/photo1.956f6a58.png",
     "static/media/photo2.99f59943.png": "/rekin-swimming-school/static/media/photo2.99f59943.png",
-    "static/media/photo3.6b2dcb92.png": "/rekin-swimming-school/static/media/photo3.6b2dcb92.png"
+    "static/media/photo3.6b2dcb92.png": "/rekin-swimming-school/static/media/photo3.6b2dcb92.png",
+    "static/media/pool.dd3b2528.svg": "/rekin-swimming-school/static/media/pool.dd3b2528.svg",
+    "static/media/swimface.c6b55cef.svg": "/rekin-swimming-school/static/media/swimface.c6b55cef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f9d81d2d.js",
     "static/js/2.e1e01cc2.chunk.js",
-    "static/css/main.57db76b7.chunk.css",
-    "static/js/main.8d777b7b.chunk.js"
+    "static/css/main.38ea5d0a.chunk.css",
+    "static/js/main.dd642e0b.chunk.js"
   ]
 }
