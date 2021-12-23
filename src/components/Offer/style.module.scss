@@ -4,6 +4,8 @@
   background-color: $offerBgrnd;
   padding-top: 50px;
   font-family: "Montserrat", sans-serif;
+  padding-bottom: 50px;
+  // height: 900px;
 
   .title {
     margin: 0;
@@ -19,10 +21,15 @@
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: repeat(3, 300px);
-    grid-template-rows: 300px;
+    grid-template-rows: max-content;
     text-align: center;
     font-weight: 500;
     font-size: 18pt;
     line-height: 45px;
+
+    .offerText {
+      margin: 0;
+      margin-top: 20px;
+    }
   }
 }

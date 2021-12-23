@@ -1,17 +1,18 @@
+import { pool, diving, swimface } from "../../img/exports";
 import style from "./style.module.scss";
 
 const offerItems = [
   {
     text: "oswajanie się z wodą",
-    img: "../some/url",
-  },
-  {
-    text: "nauka i doskonalenia sportowych technik pływackich",
-    img: "../some/url",
+    img: pool,
   },
   {
     text: "nauka pływania od podstaw",
-    img: "../some/url",
+    img: diving,
+  },
+  {
+    text: "nauka i doskonalenia sportowych technik pływackich",
+    img: swimface,
   },
 ];
 
